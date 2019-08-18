@@ -9,7 +9,6 @@ import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.License
 import kotlinx.android.synthetic.main.activity_license.*
 import kotlinx.android.synthetic.main.license_faq_item.view.*
-import java.util.*
 
 class LicenseActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
